@@ -1,9 +1,4 @@
-// document.addEventListener('DOMContentLoaded', 
-//  ()=>{ 
-//     e = document.querySelector("#text")
-//     if (e) e.innerText='проверка'
-// });
 ( async () =>{
-    const mod =await import ('./mod.js')
-    console.log(mod)
+    const module =await import ('./mod.js')
+    module.mod()
 })()
