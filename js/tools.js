@@ -5,5 +5,5 @@
 // });
 ( async () =>{
     const mod =await import ('./mod.js')
-    mod()
+    console.log(mod)
 })()
